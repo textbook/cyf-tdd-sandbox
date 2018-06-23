@@ -15,4 +15,4 @@ function removeVowels(word) {
   return result.join('');
 }
 
-module.exports = {removeVowels};
+module.exports = removeVowels;

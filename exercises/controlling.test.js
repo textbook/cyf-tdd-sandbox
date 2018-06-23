@@ -1,4 +1,4 @@
-import { removeVowels } from './refactoring';
+import removeVowels from './controlling';
 
 describe('the removeVowels function', () => {
   test('replaces consonants with underscores', () => {

@@ -8,10 +8,14 @@ it!
 Controlling which tests run
 ---------------------------
 
+We tried out `test` last week, which describes a single named expectation of the
+code we're working on. For more test structure, we can group these by nesting
+them in a named `describe`.
+
 Note the use of `describe.only(...)` to run (sometimes called *"focus"*) a
 single test - what happens when you change that to just `describe(...)`?
 
-Look in `refactoring.test.js` - only one of those tests is currently running.
+Look in `controlling.test.js` - only one of those tests is currently running.
 Make both tests run, then fix the code accordingly.
 
 `describe` and `each` both support `.only` and `.skip` to control which tests
