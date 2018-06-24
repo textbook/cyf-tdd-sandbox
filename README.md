@@ -39,6 +39,24 @@ that works, but has numerous problems. Get the test for it running, add a few
 more as you figure out what the code is doing, then *keep them all passing* as
 you refactor the code.
 
+Changing requirements
+---------------------
+
+Enable the test suite in `requirements.test.js`. There are two already passing,
+have a look at the code that's already provided. Now enable the third, failing
+test. This is a common situation - we have a new requirement for our code, which
+worked fine under the previous requirements, but doesn't any more. Write code to
+make this new test pass.
+
+Now there's a fourth kind of message: we want to be able to send `'voicemail'`
+messages, too. Write a new test to encapsulate this requirement, watch it fail,
+then extend the code for the new case.
+
+As you do both of the above steps, be thinking the following:
+
+> How easy was it to change the code? If requirements changed again, how easy
+> would it be to keep changing? How can I **lower the cost of change**?
+
 TDD is not magic
 ----------------
 
